@@ -1,7 +1,8 @@
 {
   "name": "ESBMessageAdmin",
   "scripts": {
-    "test": "karma start src/test/resources/karma.conf.gui.js"
+    "test": "karma start src/test/resources/karma.conf.gui.js",
+    "test-headless": "karma start src/test/resources/karma.conf.headless.keeprunning.js"
   },
   "license": "GPL V3",
   "devDependencies": {
